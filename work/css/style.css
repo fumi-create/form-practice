@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+input,
+select,
+button {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0px;
+}
+
+.section_wrapper {
+  background: #cff1ff;
+  width: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.wrapper h1 {
+  font-size: 28px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+.form_section {
+  background: #ecfaff;
+  padding: 50px;
+  margin-top: 60px;
+}
+
+.form_section h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.form_section h3 {
+  font-size: 18px;
+  color: #000;
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+.personal_information {
+  margin-top: 50px;
+}
+
+.account_information {
+  margin-top: 50px;
+}
+
+.address_information {
+  margin-top: 50px;
+}
+
+.subscription_information {
+  margin-top: 50px;
+}
+
+.form {
+  margin-top: 25px;
+}
+
+.red {
+  color: #e40000;
+}
+
+.lavel {
+  font-size: 14px;
+  color: #464646;
+  display: inline;
+}
+
+.input {
+  width: 100%;
+  height: 35px;
+  margin-top: 6px;
+  padding: 5px;
+  color: #545658;
+  box-sizing: border-box;
+  border: 1px solid #d9d9d9;
+  background: #fbfbfb;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+.select_wrapper {
+  margin-top: 6px;
+  display: flex;
+}
+
+.select_option {
+  width: 100%;
+  position: relative;
+}
+
+.select_option:after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  right: 10px;
+  top: 45%;
+  display: inline-block;
+  border-bottom: 2px solid #c3c3c3;
+  border-right: 2px solid #c3c3c3;
+  transform: rotate(45deg);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+.form_sex {
+  margin-top: 6px;
+}
+
+.sex_label {
+  margin-left: 10px;
+}
+
+.sex_label:first-child {
+  margin-left: 0;
+}
+
+.sex_label span {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+  color: #545658;
+}
+
+.sex_label span:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 14px;
+  height: 14px;
+  background-color: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.sex_input:checked+span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  background-color: #017cbf;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+.label_check {
+  position: relative;
+  padding-left: 25px;
+}
+
+.label_check:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 15px;
+  height: 15px;
+  margin-top: -8px;
+  border: 1px solid #d9d9d9;
+  background: #ffffff;
+}
+
+.form_subscription input:checked+.label_check:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  width: 6px;
+  height: 13px;
+  margin-top: -11px;
+  border-right: 3px solid #0140bf;
+  border-bottom: 3px solid #0140bf;
+  transform: rotate(45deg);
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+.btn_information {
+  margin-top: 50px;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  transition: 0.3s;
+  padding: 13px;
+  width: 100%;
+}
+
+.btn_2 {
+  padding: 13px;
+  background: #0170bf;
+  color: #fff;
+}
+
+.btn:active {
+  background: #fff;
+  color: #0170bf;
+}
+
+.policy p{
+  margin-top: 25px;
+  font-size: 10px;
+}
+
+.policy a{
+  text-decoration: none;
+  color: #0170bf;;
+}
